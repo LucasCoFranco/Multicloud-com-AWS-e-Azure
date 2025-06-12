@@ -1,0 +1,7 @@
+Primeiramente, vamos criar a nossa VPC na AWS
+vou nomear ela de "multicloud-AWS", deixar o ip CIDR como 10.1.0.0/16
+
+Agora vou criar uma subnet privada, na aba subnets, selecionar create subnet, selecionar a VPC (multicloud-AWS), escolher o nome (multicloud-lucas), não é necessario escolher uma zona, escolher o CIDR dessa subnet (10.1.0.0/24)
+
+Agora vou criar a route table, escreva o nome da route table e qual VPC ela vai ficar.
+
